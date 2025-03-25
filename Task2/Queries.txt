@@ -1,0 +1,36 @@
+signup (POST)
+{
+  "name": "Heba",
+  "username": "heba",
+  "password": "password123"
+}
+
+login (Post)
+{
+  "username": "sara",
+  "password": "password123"
+}
+
+To get all products (Get)
+http://127.0.0.1:5000/products
+
+TO get one product by id  (Get)
+http://127.0.0.1:5000/products/2
+
+add products (Post)
+{
+  "pname": "Laptop",
+  "description": "Gaming laptop with high performance",
+  "price": 1500.50,
+  "stock": 10
+}
+
+Update product (Put)
+http://127.0.0.1:5000/products/2
+{
+  "pname": "Updated Laptop",
+  "price": 1700.00
+}
+
+Delete Product (Delete)
+http://127.0.0.1:5000/products/4
